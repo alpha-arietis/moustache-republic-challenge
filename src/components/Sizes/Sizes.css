@@ -1,0 +1,28 @@
+input {
+	appearance: none;
+}
+.option {
+	float: left;
+	clear: right;
+	display: block;
+	background: white;
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	margin: 5px 10px 5px 0px;
+	text-align: center;
+	line-height: 0px;
+}
+
+.option:hover {
+	cursor: pointer;
+}
+
+input[type='radio']#small:checked ~ label[for='small'],
+#medium:checked ~ label[for='medium'],
+#large:checked ~ label[for='large'] {
+	color: black;
+	background: white;
+	border: 1px solid #222222;
+}

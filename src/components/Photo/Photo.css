@@ -1,0 +1,16 @@
+.Photo {
+	width: 50%;
+	text-align: center;
+}
+
+.Photo img {
+	width: auto;
+	max-height: 600px;
+}
+
+@media screen and (max-width: 500px) {
+	.Photo img {
+		width: auto;
+		margin-right: 15px;
+	}
+}
